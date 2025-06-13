@@ -28,4 +28,8 @@ public class Cajero {
     @Column(name = "token", length = 100)
     private String token;
 
+    @ManyToOne
+    @JoinColumn(name = "vendedor_id")
+    private Vendedor vendedor;
+
 }

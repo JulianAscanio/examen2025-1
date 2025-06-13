@@ -1,7 +1,9 @@
 package co.edu.ufps.examen20251.models;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "cliente")
 public class Cliente {

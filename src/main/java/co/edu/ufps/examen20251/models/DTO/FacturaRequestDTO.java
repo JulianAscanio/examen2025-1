@@ -2,6 +2,8 @@ package co.edu.ufps.examen20251.models.DTO;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class FacturaRequestDTO {
     private Double impuesto;
